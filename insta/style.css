@@ -1,0 +1,52 @@
+ /* CSS for styling */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(239, 236, 236);
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+  }
+  .login-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  .login-container h2 {
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+  .login-container input {
+    width:100%;
+    padding: 10px;
+    margin-bottom: 35px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  .login-container button {
+    padding: 10px 20px;
+    background-color: #3897f0;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .login-container button:hover {
+    background-color: #f9517b;
+  }
+
+  .login-container img{
+ 
+    width: 50px; 
+    height: auto; 
+
+  }
